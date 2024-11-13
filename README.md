@@ -26,3 +26,26 @@ Type this command. Lombok UI will open paste the path there. and click install.
 ![image](https://github.com/user-attachments/assets/57d9e311-87f0-4b30-8e1d-f4507c27d00d)
 
 10. Booooooooooom! It's working!
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+
+                                              *******************************
