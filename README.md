@@ -28,23 +28,35 @@ Type this command. Lombok UI will open paste the path there. and click install.
 
 10. Booooooooooom! It's working
 .
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+___________________________________________
+
+### Now let talk to the desktop shortcut.
+
+_Why it's very important....?_
+
+1. I have installed eclipse using flatpak/ software store
+2. Then I installed lombok in somewhere.
+3. But...
+4. Flatpak is encapsulated environment where we can't modify directly code.
+5. Hence above steps can be work and can't!
+6. We need to pass one parameter to the eclipse (Note: this is standard for Lombok for any IDE or any OS)
+7. Here that parameter:
+
+`
+-- -vmargs -javaagent:/home/dipakugale/.var/app/org.eclipse.Java/eclipse/plugins/org.projectlombok.agent_1.18.34/  @@ %f @@
+`
+
+9. Now we have to pass this parameter when we open the desktop shortcut
+10. But flatpak shortcuts are always present here:
+`/var/lib/flatpak/exports/share/applications`
+12. So this link is referred to this location
+`/var/lib/flatpak/app/org.eclipse.Java/current/active/export/share/applications`
+13. So we have to modify this file:
+`org.eclipse.Java.desktop`
+14. Now it should be look like this
+`Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=eclipse --file-forwarding org.eclipse.Java -- -vmargs -javaagent:/home/dipakugale/.var/app/org.eclipse.Java/eclipse/plugins/org.projectlombok.agent_1.18.34/  @@ %f @@`
+15. Please note making any single change in `.desktop `file laptop need to restart then it will reflect.
+16. Happy journey!
 .
 .
 !
