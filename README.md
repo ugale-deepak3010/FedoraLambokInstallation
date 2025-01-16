@@ -1,3 +1,4 @@
+#### 1. How to Install Lombok in Fedora?
 1. Install lombok in eclipse using marketplace
 ![image](https://github.com/user-attachments/assets/51d12f07-f696-41e3-beb1-bb62fbeec035)
 
@@ -20,7 +21,7 @@ This is the code you have to update.
 
 _____________________________________________________
 
-### How to install maven in Fedora or Windows?
+### 2. How to install maven in Fedora or Windows?
 
 1. Download maven zip file from here
 `https://maven.apache.org/download.cgi`
