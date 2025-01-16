@@ -17,3 +17,23 @@ This is the code you have to update.
 ![image](https://github.com/user-attachments/assets/67ffd053-0b97-4ec9-bb73-8f61132db535)
 
 4. Restart laptop & eclipse several times.
+
+_____________________________________________________
+
+### How to install maven in Fedora or Windows?
+
+1. Download maven zip file from here
+`https://maven.apache.org/download.cgi`
+2. Extract zip file anywhere in file explorer
+Example: `/home/dipakugale/Documents/ImpPath/InstalledSoftwareHereDoNotDelete/apache-maven-3.9.9`
+3. Now paste the path here
+![image](https://github.com/user-attachments/assets/ec306483-3bdd-4649-9173-d637da08d502)
+
+4. Now maven should be work:
+![image](https://github.com/user-attachments/assets/ab8722dc-8d73-4b96-9a3e-1a75a6ab2cee)
+
+5. Expected result should be work.
+
+![image](https://github.com/user-attachments/assets/7d7ec64a-3b3e-467a-aaa4-73a78bd4c28a)
+
+
